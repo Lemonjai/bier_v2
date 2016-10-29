@@ -7,4 +7,3 @@ This log for all the work has been done, including the stuff created, done and m
 * Create the index for creating the beer and wine post
 * Create the scaffold for the post for the beer
 * Create the scaffold for the post for the wine
-*

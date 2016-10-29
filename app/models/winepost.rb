@@ -1,0 +1,2 @@
+class Winepost < ApplicationRecord
+end
