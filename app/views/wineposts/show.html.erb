@@ -5,5 +5,10 @@
   <%= @winepost.name %>
 </p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @winepost.winecolour.name %>
+</p>
+
 <%= link_to 'Edit', edit_winepost_path(@winepost) %> |
 <%= link_to 'Back', wineposts_path %>

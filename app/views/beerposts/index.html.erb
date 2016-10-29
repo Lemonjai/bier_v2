@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Colour</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,6 +15,7 @@
     <% @beerposts.each do |beerpost| %>
       <tr>
         <td><%= beerpost.name %></td>
+        <td><%= beerpost.beercolour.name %></td>
         <td><%= link_to 'Show', beerpost %></td>
         <td><%= link_to 'Edit', edit_beerpost_path(beerpost) %></td>
         <td><%= link_to 'Destroy', beerpost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
