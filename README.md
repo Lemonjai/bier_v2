@@ -10,3 +10,6 @@ This log for all the work has been done, including the stuff created, done and m
 * Create the scaffold for the post for the wine -> Scaffold done for wine
 * Create the scaffold for the colours for the beer -> Scaffold done for beer colour
 * Create the scaffold for the colours for the wine -> Scaffold done for wine colour
+* Add the basic validation for the beer post and wine post
+* Add the basic validation for the colour on the beer post and wine post
+* 
