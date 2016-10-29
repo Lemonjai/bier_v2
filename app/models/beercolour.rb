@@ -1,0 +1,2 @@
+class Beercolour < ApplicationRecord
+end

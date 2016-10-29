@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :beercolours
+  resources :winecolours
   root 'index#main'
 
   resources :wineposts
