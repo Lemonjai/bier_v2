@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Winery</th>
       <th>Colour</th>
       <th colspan="3"></th>
     </tr>
@@ -15,6 +16,7 @@
     <% @wineposts.each do |winepost| %>
       <tr>
         <td><%= winepost.name %></td>
+        <td><%= winepost.winery.name %></td>
         <td><%= winepost.winecolour.name %></td>
         <td><%= link_to 'Show', winepost %></td>
         <td><%= link_to 'Edit', edit_winepost_path(winepost) %></td>

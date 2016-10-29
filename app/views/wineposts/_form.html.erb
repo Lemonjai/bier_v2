@@ -17,9 +17,15 @@
   </div>
 
   <div class="field">
+    <%= f.label :winery, "Winery" %>
+    <%= f.collection_radio_buttons :winery_id, Winery.all, :id, :name, {prompt: "Choose a winery" } %>
+  </div>
+
+  <div class="field">
     <%= f.label :colour, "Colour" %>
     <%= f.collection_radio_buttons :winecolour_id, Winecolour.all, :id, :name, {prompt: "Choose a colour" } %>
   </div>
+
 
   <div class="actions">
     <%= f.submit %>
