@@ -1,24 +1,10 @@
-# README
+# README for DOD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This log for all the work has been done, including the stuff created, done and modified.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Oct 29, 2016
+* Initialise the app
+* Create the index for creating the beer and wine post
+* Create the scaffold for the post for the beer
+* Create the scaffold for the post for the wine
+*
