@@ -2,6 +2,11 @@
 
 This log for all the work has been done, including the stuff created, done and modified.
 
+# Oct 30, 2016
+* Add the carrierwave gem for uploading the images
+* Add the ability to add images to the post
+
+
 # Oct 29, 2016
 * Initialise the app
 * Create the index for creating the beer and wine post -> Add the temporary link for posting
