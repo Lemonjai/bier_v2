@@ -6,6 +6,7 @@ This log for all the work has been done, including the stuff created, done and m
 * Add the carrierwave gem for uploading the images
 * Add the ability to add images to the post
 * Add the ablity to add image colour for the beer colour post
+* Add the error handling if the nothing is selected
 
 
 # Oct 29, 2016

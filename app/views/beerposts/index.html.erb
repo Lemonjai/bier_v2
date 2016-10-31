@@ -18,8 +18,8 @@
       <tr>
         <td><%= beerpost.name %></td>
         <td><%= image_tag beerpost.image.thumb.url.to_s %></td>
-        <td><%= beerpost.brewery.name %></td>
-        <td><%= beerpost.beercolour.name %></td>
+        <td><%= beerpost.brewery.name if beerpost.brewery %></td>
+        <td><%= beerpost.beercolour.name if beerpost.beercolour  %></td>
         <td><%= link_to 'Show', beerpost %></td>
         <td><%= link_to 'Edit', edit_beerpost_path(beerpost) %></td>
         <td><%= link_to 'Destroy', beerpost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
