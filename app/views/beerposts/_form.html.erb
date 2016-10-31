@@ -17,13 +17,16 @@
   </div>
 
   <div class="field">
-    <%= f.label :brewery, "Brewery" %>
+    <%= f.label :brewery, "Brewery" %><br>
     <%= f.collection_radio_buttons :brewery_id, Brewery.all, :id, :name, {prompt: "Choose a brewery" } %>
   </div>
 
   <div class="field">
-    <%= f.label :colour, "Colour" %>
-    <%= f.collection_radio_buttons :beercolour_id, Beercolour.all, :id, :name, {prompt: "Choose a colour" } %>
+    <%= f.label :colour, "Choose the colour" %>
+    <br>
+    <%= f.collection_radio_buttons(:beercolour_id, Beercolour.all, :id, :colour_image) do |b| %>
+      <%= b.label { b.radio_button + image_tag(b.object.colour_image.thumb.url) } %>
+    <% end %>
   </div>
 
   <div class="field">

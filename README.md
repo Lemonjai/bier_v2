@@ -7,6 +7,7 @@ This log for all the work has been done, including the stuff created, done and m
 * Add the ability to add images to the post
 * Add the ablity to add image colour for the beer colour post
 * Add the error handling if the nothing is selected
+* Add the image to be selected for the colour
 * Started the dashboard for the beer and wine
 
 
