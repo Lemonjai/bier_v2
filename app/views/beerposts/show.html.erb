@@ -12,12 +12,12 @@
 
 <p>
   <strong>Brewery:</strong>
-  <%= @beerpost.brewery.name %>
+  <%= @beerpost.brewery.name if @beerpost.brewery %>
 </p>
 
 <p>
   <strong>Colour:</strong>
-  <%= @beerpost.beercolour.name %>
+  <%= @beerpost.beercolour.name if @beerpost.beercolour %>
 </p>
 
 <%= link_to 'Edit', edit_beerpost_path(@beerpost) %> |
