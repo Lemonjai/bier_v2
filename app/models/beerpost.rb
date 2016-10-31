@@ -6,5 +6,5 @@ class Beerpost < ApplicationRecord
   # Image uploading model
   
   # Validates the name of the post
-  validates :name, presence: true
+  validates :name, :image, presence: true
 end
