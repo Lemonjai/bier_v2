@@ -2,6 +2,10 @@
 
 This log for all the work has been done, including the stuff created, done and modified.
 
+# Oct 31, 2016
+* Fix issue for the panel display on the post
+
+
 # Oct 30, 2016
 * Add the carrierwave gem for uploading the images
 * Add the ability to add images to the post
