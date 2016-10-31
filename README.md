@@ -9,6 +9,8 @@ This log for all the work has been done, including the stuff created, done and m
 * Add the error handling if the nothing is selected
 * Add the image to be selected for the colour
 * Started the dashboard for the beer and wine
+* Started the styling for the blog post
+* Add the panel to display the details of the beer
 
 
 # Oct 29, 2016
