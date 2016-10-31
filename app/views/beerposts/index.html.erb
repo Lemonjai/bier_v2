@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Image</th>
       <th>Brewery</th>
       <th>Colour</th>
       <th colspan="3"></th>
@@ -16,6 +17,7 @@
     <% @beerposts.each do |beerpost| %>
       <tr>
         <td><%= beerpost.name %></td>
+        <td><%= image_tag beerpost.image.thumb.url.to_s %></td>
         <td><%= beerpost.brewery.name %></td>
         <td><%= beerpost.beercolour.name %></td>
         <td><%= link_to 'Show', beerpost %></td>

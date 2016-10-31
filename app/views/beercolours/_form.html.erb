@@ -17,6 +17,16 @@
   </div>
 
   <div class="field">
+    <%= f.label :colour_image %><br>
+    <%= f.file_field :colour_image %>
+    <% if f.object.colour_image? %>
+      <%= image_tag f.object.colour_image.thumb.url %>
+      <%= f.label :remove_colour_image %>
+      <%= f.check_box :remove_colour_image %> 
+    <% end %>
+  </div>
+
+  <div class="field">
     <%= f.label :hexcode %>
     <%= f.text_field :hexcode %>
   </div>

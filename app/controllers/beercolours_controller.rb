@@ -69,6 +69,6 @@ class BeercoloursController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def beercolour_params
-      params.require(:beercolour).permit(:name, :hexcode)
+      params.require(:beercolour).permit(:name, :hexcode, :colour_image)
     end
 end
