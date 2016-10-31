@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :beercolours
   resources :winecolours
   root 'index#main'
+  get 'index/beermain'
 
   resources :wineposts
   resources :beerposts
