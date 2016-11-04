@@ -33,6 +33,8 @@ gem 'mini_magick'
 gem 'bootstrap-sass'
 # Bundler
 gem 'bundler', '~> 1.13', '>= 1.13.6'
+# Font awesome
+gem "font-awesome-rails";
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

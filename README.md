@@ -2,6 +2,9 @@
 
 This log for all the work has been done, including the stuff created, done and modified.
 
+# Nov 3, 2016
+* Add the top navbar
+
 # Oct 31, 2016
 * Fix issue for the panel display on the post
 
